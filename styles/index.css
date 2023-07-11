@@ -97,6 +97,19 @@ img {
 .middle {width: 49%!important;}
 .small {width: 32.5%!important;}
 
+.psd-btn {
+  cursor: pointer;
+  background: #3eaf7c;
+  padding:8px 12px;
+  transition: all ease 0.3s;
+  border-radius:10px;
+  display: inline-block;
+  color:#fff;
+}
+.psd-btn:hover {
+  opacity: 0.8;
+}
+
 /* 覆盖主题样式 */
 .vp-hero-infos {text-align: center!important;}
 .vp-hero-info {flex-direction: column!important;}

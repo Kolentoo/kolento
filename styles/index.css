@@ -69,7 +69,10 @@ img {
   transform: scale(0.1);
   position:fixed;
   width:0vw;
-  height:0%;
+  height: 0;
+  overflow: hidden;
+  padding: 0!important;
+  margin: 0!important;
 }
 .pop img{margin:0 auto;max-height:94vh;}
 .mask {
